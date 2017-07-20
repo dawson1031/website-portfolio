@@ -1,0 +1,78 @@
+The winners of the election will be displayed on the top of the map. As you mouse over each state, the color will change to indicate who won.
+
+At a high level, here’s a little bit of context for the inner workings of this map:
+
+    There are two candidates, each running for president. They don’t have names or parties – that’s for you to decide!
+    The voting model we’re using is based on an electoral college alternative: each state (plus Washington, D.C.) has a set number of votes that they can cast for one of the candidates.
+    The number of votes from each state can be used to show who won which state – both in the table on the bottom right, and when you mouse over a state.
+
+Like with your LOLCat Clock and Magic 8-Ball projects, the HTML & CSS for the map will be given to you. Additionally, you’ll be referencing code from an additional code file: map.js. The instructions in this class will tell you how to reference the parts you need. If you have time and are curious, feel free to take a look at this code and see what pieces of JavaScript you recognize and which pieces look new.
+
+And with that, you’re off! Good luck making your map! 
+
+
+Using JavaScript & Tables
+
+
+Tables are used all the time on the web. Think about the last time you looked at your online bank account – it’s totally made of tables!
+
+You know what else has a couple of tables? Your election map project. Only right now, those tables don’t have any useful information in them…just dummy text to fill in the blanks.
+
+Today you’re going change all that – by using the DOM to populate them with the content they need!
+
+    The table at the top will show the total votes for each candidate and announce the winner.
+    The one at the bottom is a much more dynamic table. When you hover over a state on the map, the table will populate with the state name, state abbreviation, number of votes for each candidate, and the winner of that state.
+Now that you’ve had some practice populating a non-interactive table, it’s time to practice populating one that is!
+
+The contents of your map’s bottom right table change depending on what state you’re hovering over on the map.
+
+Populate Your Table Announcing the Winners
+It’s time to use JavaScript to populate that table up at the top of your map!
+
+
+
+Populating the State Results Table
+Now that you’ve had some practice populating a non-interactive table, it’s time to practice populating one that is!
+
+The contents of your map’s bottom right table change depending on what state you’re hovering over on the map.
+
+For each state, your table needs to show:
+
+    the state name
+    the state abbreviation
+    the number of votes for each candidate, and
+    the winner of that state.
+
+To write this kind of functionality, you still need to access specific cells of the table using parents and children. Only instead of setting them to be a single value, you need to set them to variables.
+
+Create Your Variables for Each Position of the Table
+Over the course of the next two challenges, you’ll populate each cell of the bottom table with the appropriate information.
+
+In this challenge, you’ll do the first part: create variables for each position of the table.
+
+Use getElementByID to access the table for state results. You can find the correct ID by looking in the HTML.
+
+You’ll write this code at the bottom of your state results function.
+
+When you’re done, save a snapshot of your code and paste the link in the field below.
+
+Create Your Variables for Displaying Text
+Now that you have a variable for each node in your table, it’s time to fill them in with the appropriate text!
+
+Hint! You’ll need to use an if / else statement in the field where you declare the winner to account for whether there’s a tie.
+
+Write all this code at the bottom of your state results function.
+
+This is the last bit of code you have to write for this project, Skillcrusher! You can do it!
+
+When you’re done, save a snapshot of your code and upload it using the link below.
+
+It’s time to finish up this project of yours and get it ready to work for the web!
+
+Here are some things you may want to check for:
+
+    Have you resolved all of your errors?
+    Does the color for each candidate match the winning color of each selected state?
+    Does the bottom table indicate when there’s a tie?
+
+Once you’ve made sure that your code is working as it should, transfer all your files to code files. Make sure they’re all linked together. And if you want, make them live on the web.

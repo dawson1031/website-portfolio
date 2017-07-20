@@ -1,0 +1,149 @@
+/****** BASE STYLES ******/
+
+body {
+    font-family: Montserrat, sans-serif;
+    max-width: 1200px;
+    margin: 0 auto;
+}
+
+h1 {
+    text-transform: uppercase; 
+    font-size: 30px; 
+    text-align: left; 
+    float: left; 
+    padding: 15px 0;
+}
+
+h3 {
+    text-transform: uppercase; 
+    font-size: 18px; 
+    font-weight: bold;
+    color: #77a466;
+}
+
+h4 {
+    text-transform: uppercase; 
+    font-size: 12px;
+}
+
+p {
+    font-size: 16px;
+    line-height: 25px;
+}
+/****** GRID ******/
+
+/*#third-width{
+	width: 33%;
+	float: left;
+}*/
+
+.section-one, 
+.section-two, 
+.section-three { 
+    border-top: 1px solid #eee;
+    width: 33%;
+    float: left;
+}
+/****** HEADER ******/
+
+header {
+    width: 100%; 
+    height: 110px; 
+    border-bottom: 3px solid #77a466; 
+    margin: 0 auto;
+}
+
+header h1 span {
+    color: #77a466;
+}
+
+nav {
+    float: right;
+    padding: 45px 0px;
+}
+
+nav li{
+    display: inline-block;
+}
+nav a {
+    text-transform: uppercase;
+    text-decoration: none;
+    font-weight: bold; 
+    font-size: 14px;
+    color: #77a466;
+    padding: 0 20px; 
+}
+
+/****** MAIN ******/
+
+ #hero {
+    width: 100%;
+    border-bottom: 3px solid #77a466; 
+}
+
+.top 
+.bottom  {
+    width: 100%; 
+    margin: 0 auto; 
+}
+
+/****** SECTION ONE ******/
+
+.section-one h4 {
+    font-weight: bold;
+    line-height: 25px;
+}
+
+.section-one p {
+    line-height: 36px;
+    color: #77a466;
+}
+
+/****** SECTION TWO ******/
+
+.section-two p {
+    padding-right: 50px; 
+    margin-left: 25px;
+}
+
+.section-two h4 {
+    margin-left: 25px;
+}
+
+.section-two{
+    border-right: 1px solid #dedbdc;
+    border-left: 1px solid #dedbdc;
+}
+
+/****** SECTION THREE ******/
+
+.section-three p {
+    padding-right: 50px; 
+    margin-left: 25px;
+}
+
+.section-three h4 {
+    margin-left: 25px;
+}
+
+/****** FOOTER ******/
+
+footer {
+    width: 100%;
+    height: 80px;
+    clear: both;
+    border-top: 1px solid #dedbdc;
+}
+
+footer h4 {
+    font-size: 16px;
+    text-align: center;
+}
+
+footer span{
+    font-family: wisdom_script_airegular, Brush Script Std, cursive; 
+    font-size: 20px;
+    font-weight: normal;
+    text-transform: lowercase;
+    color: #77a466;
+}
